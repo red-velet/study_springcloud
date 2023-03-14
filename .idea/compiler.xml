@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zookeeper_provider" />
+        <module name="zookeeper_consumer" />
+        <module name="eureka_server1" />
+        <module name="eureka_server2" />
+        <module name="eureka_provider" />
+        <module name="eureka_server" />
+        <module name="eureka_consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka_consumer" target="1.8" />
+      <module name="eureka_provider" target="1.8" />
+      <module name="eureka_server" target="1.8" />
+      <module name="eureka_server1" target="1.8" />
+      <module name="eureka_server2" target="1.8" />
+      <module name="springcloud-parent" target="1.8" />
+      <module name="zookeeper_consumer" target="1.8" />
+      <module name="zookeeper_provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka_consumer" options="-parameters" />
+      <module name="eureka_provider" options="-parameters" />
+      <module name="eureka_server" options="-parameters" />
+      <module name="eureka_server1" options="-parameters" />
+      <module name="eureka_server2" options="-parameters" />
+      <module name="zookeeper_consumer" options="-parameters" />
+      <module name="zookeeper_provider" options="-parameters" />
+    </option>
+  </component>
+</project>

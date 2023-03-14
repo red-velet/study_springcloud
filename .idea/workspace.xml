@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd3d5ad5-9f6f-48e9-b085-fcb4fe22da27" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/eureka_consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/domain/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/eureka_provider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/domain/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server/eureka_server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server/src/main/java/com/qxy/eureka/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server1/eureka_server1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server1/src/main/java/com/qxy/eureka/EurekaServer1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server2/eureka_server2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server2/src/main/java/com/qxy/eureka/EurekaServer2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/src/main/java/com/qxy/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/src/main/java/com/qxy/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/src/main/java/com/qxy/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/src/main/java/com/qxy/domain/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/src/main/java/com/qxy/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/src/main/java/com/qxy/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/src/main/java/com/qxy/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/src/main/java/com/qxy/domain/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/src/main/java/com/qxy/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/zookeeper_provider.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="D:/Apache/Apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Apache\Apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2N0Adr1QE667c4EhJl5Eq7kle6c" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/src/main/java/com/qxy" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.12970167" />
+    <property name="project.structure.side.proportion" value="0.17064846" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\study_springcloud\springcloud-parent\zookeeper_consumer\src\main\java\com\qxy" />
+      <recent name="E:\Code\study_springcloud\springcloud-parent\zookeeper_consumer\src\main\resources" />
+      <recent name="E:\Code\study_springcloud\springcloud-parent\zookeeper_provider\src\main\java\com\qxy" />
+      <recent name="E:\Code\study_springcloud\springcloud-parent\eureka_server2\src\main\resources" />
+      <recent name="E:\Code\study_springcloud\springcloud-parent\eureka_server1\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qxy.eureka" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProviderApplication (1)">
+    <configuration name="ConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper_consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qxy.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka_consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qxy.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qxy.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka_server2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qxy.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qxy.eureka.EurekaServer2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper_provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qxy.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka_provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qxy.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qxy.provider.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProviderApplication (1)" />
+        <item itemvalue="Spring Boot.ConsumerApplication (1)" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="Spring Boot.ProviderApplication" />
+        <item itemvalue="Spring Boot.EurekaServer2Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="fd3d5ad5-9f6f-48e9-b085-fcb4fe22da27" name="变更" comment="" />
+      <created>1678790718165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678790718165</updated>
+      <workItem from="1678790720390" duration="7682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-parent/eureka_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-parent/eureka_server1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-parent/eureka_server2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-parent/zookeeper_provider/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
