@@ -11,17 +11,21 @@
         <module name="zookeeper_consumer" />
         <module name="eureka_server1" />
         <module name="eureka_server2" />
+        <module name="api_gateway_server" />
         <module name="eureka_provider" />
         <module name="eureka_server" />
         <module name="eureka_consumer" />
+        <module name="hystrix-monitor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api_gateway_server" target="1.8" />
       <module name="eureka_consumer" target="1.8" />
       <module name="eureka_provider" target="1.8" />
       <module name="eureka_server" target="1.8" />
       <module name="eureka_server1" target="1.8" />
       <module name="eureka_server2" target="1.8" />
+      <module name="hystrix-monitor" target="1.8" />
       <module name="springcloud-parent" target="1.8" />
       <module name="zookeeper_consumer" target="1.8" />
       <module name="zookeeper_provider" target="1.8" />
@@ -29,11 +33,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api_gateway_server" options="-parameters" />
       <module name="eureka_consumer" options="-parameters" />
       <module name="eureka_provider" options="-parameters" />
       <module name="eureka_server" options="-parameters" />
       <module name="eureka_server1" options="-parameters" />
       <module name="eureka_server2" options="-parameters" />
+      <module name="hystrix-monitor" options="-parameters" />
       <module name="zookeeper_consumer" options="-parameters" />
       <module name="zookeeper_provider" options="-parameters" />
     </option>

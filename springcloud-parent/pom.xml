@@ -16,6 +16,8 @@
         <module>eureka_server2</module>
         <module>zookeeper_provider</module>
         <module>zookeeper_consumer</module>
+        <module>hystrix-monitor</module>
+        <module>api_gateway_server</module>
     </modules>
     <packaging>pom</packaging>
 

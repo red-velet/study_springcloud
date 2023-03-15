@@ -2,15 +2,12 @@ package com.qxy.consumer.controller;
 
 import com.qxy.consumer.domain.Goods;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
-
-import java.util.List;
 
 /**
  * @Author: SayHello
@@ -38,15 +35,17 @@ public class OrderController {
         //String providerUrl = "http://localhost:8000/goods/findById/"+id;
         //Goods goods = restTemplate.getForObject(providerUrl, Goods.class);
         //修改为eureka的发现客户端
-        List<ServiceInstance> instances = discoveryClient.getInstances("EUREKA-PROVIDER");
-        if (instances == null || instances.size() <= 0) {
-            return null;
-        }
-        ServiceInstance instance = instances.get(0);
-        String host = instance.getHost();
-        int port = instance.getPort();
-        String providerUrl = "http://" + host + ":" + port + "/goods/findById/" + id;
-        System.out.println("providerUrl = " + providerUrl);
+        //List<ServiceInstance> instances = discoveryClient.getInstances("EUREKA-PROVIDER");
+        //if (instances == null || instances.size() <= 0) {
+        //    return null;
+        //}
+        //ServiceInstance instance = instances.get(0);
+        //String host = instance.getHost();
+        //int port = instance.getPort();
+        //String providerUrl = "http://" + host + ":" + port + "/goods/findById/" + id;
+        //System.out.println("providerUrl = " + providerUrl);
+
+        String providerUrl = "http://EUREKA-PROVIDER/goods/findById/" + id;
         Goods goods = restTemplate.getForObject(providerUrl, Goods.class);
         return goods;
     }

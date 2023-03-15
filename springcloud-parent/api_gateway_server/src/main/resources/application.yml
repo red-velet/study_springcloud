@@ -1,0 +1,45 @@
+server:
+  port: 81
+
+spring:
+  application:
+    name: api-gateway-server
+  cloud:
+    # 网关配置
+    gateway:
+      # 路由配置：转发规则
+      routes: #集合。
+        # id: 唯一标识。默认是一个UUID
+        # uri: 转发路径
+        # predicates: 条件,用于请求网关路径的匹配规则
+        # filters：配置局部过滤器的
+        - id: eureka-provider
+          # 静态路由
+          #uri: http://localhost:8000/
+          # 动态路由
+          uri: lb://eureka-provider
+          predicates:
+            - Path=/goods/**
+          filters:
+            - AddResponseHeader=name,eureka-provider-gateway
+
+        - id: eureka-consumer
+          # uri: http://localhost:9000
+          uri: lb://eureka-consumer
+          predicates:
+            - Path=/order/**
+          # 微服务名称配置
+      discovery:
+        locator:
+          enabled: true # 设置为true 请求路径前可以添加微服务名称
+          lower-case-service-id: true # 允许为小写
+      #内置过滤器 全局过滤器： route同级
+      default-filters:
+        - AddResponseHeader=rose,jack
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

@@ -1,6 +1,7 @@
 package com.qxy.provider.dao;
 
 import com.qxy.provider.domain.Goods;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -10,11 +11,14 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public class GoodsDao {
-    public Goods findById(Integer id)
-    {
+    @Value("${server.port}")
+    Integer port;
+
+
+    public Goods findById(Integer id) {
         Goods goods = new Goods();
         goods.setId(id);
-        goods.setTitle("手机");
+        goods.setTitle("手机" + " port:-" + port);
         goods.setStock(100);
         goods.setPrice(1999.0);
         return goods;

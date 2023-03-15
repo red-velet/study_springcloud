@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud-parent/api_gateway_server/api_gateway_server.iml" filepath="$PROJECT_DIR$/springcloud-parent/api_gateway_server/api_gateway_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/eureka_consumer/eureka_consumer.iml" filepath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/eureka_consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/eureka_provider/eureka_provider.iml" filepath="$PROJECT_DIR$/springcloud-parent/eureka_provider/eureka_provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/springcloud-parent/eureka_server/eureka_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/eureka_server1/eureka_server1.iml" filepath="$PROJECT_DIR$/springcloud-parent/eureka_server1/eureka_server1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/eureka_server2/eureka_server2.iml" filepath="$PROJECT_DIR$/springcloud-parent/eureka_server2/eureka_server2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-parent/hystrix-monitor/hystrix-monitor.iml" filepath="$PROJECT_DIR$/springcloud-parent/hystrix-monitor/hystrix-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" filepath="$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/study_springcloud.iml" filepath="$PROJECT_DIR$/.idea/study_springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/zookeeper_consumer.iml" filepath="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/zookeeper_consumer.iml" />

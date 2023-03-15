@@ -1,5 +1,5 @@
 server:
-  port: 8000
+  port: 8001
 
 eureka:
   instance:
@@ -13,7 +13,8 @@ eureka:
     register-with-eureka: true #一启动是否将自己的路径 注册到eureka上
     fetch-registry: true #一启动是否需要从eureka中抓取数据
     service-url:
-      defaultZone: http://eureka-server1:8761/eureka,http://eureka-server2:8761/eureka # eureka服务端地址，将来客户端使用该地址和eureka进行通信
+      defaultZone: http://localhost:8761/eureka
+      #defaultZone: http://eureka-server1:8761/eureka,http://eureka-server2:8761/eureka # eureka服务端地址，将来客户端使用该地址和eureka进行通信
 spring:
   application:
     name: eureka-provider # 设置当前应用的名称。将来会在eureka中Application显示。将来需要使用该名称来获取路径

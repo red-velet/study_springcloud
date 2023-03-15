@@ -4,50 +4,114 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd3d5ad5-9f6f-48e9-b085-fcb4fe22da27" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/eureka_consumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/domain/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/eureka_provider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/ProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/controller/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/dao/GoodsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/domain/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server/eureka_server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server/src/main/java/com/qxy/eureka/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server1/eureka_server1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server1/src/main/java/com/qxy/eureka/EurekaServer1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server1/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server2/eureka_server2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server2/src/main/java/com/qxy/eureka/EurekaServer2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/src/main/java/com/qxy/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/src/main/java/com/qxy/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/src/main/java/com/qxy/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/src/main/java/com/qxy/domain/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/src/main/java/com/qxy/ProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/src/main/java/com/qxy/controller/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/src/main/java/com/qxy/dao/GoodsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/src/main/java/com/qxy/domain/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/src/main/java/com/qxy/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/zookeeper_provider.iml" afterDir="false" />
+    <list default="true" id="fd3d5ad5-9f6f-48e9-b085-fcb4fe22da27" name="变更" comment="first commit for day01 registry study code">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_turbine_turbine_core_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_53_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_53_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_53_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_53_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_53_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_2_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_turbine_2_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_turbine_2_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/api_gateway_server/api_gateway_server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/api_gateway_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/api_gateway_server/src/main/java/com/qxy/ApiGatewayApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/api_gateway_server/src/main/java/com/qxy/filter/IpFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/api_gateway_server/src/main/java/com/qxy/filter/UrlFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/api_gateway_server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/config/FeignLogConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/config/HystrixConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/config/MyLoadBalanceRuleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/controller/OrderFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/feign/GoodsFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/feign/GoodsFeignFallbackImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/config/HystrixConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/hystrix-monitor/hystrix-monitor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/hystrix-monitor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/hystrix-monitor/src/main/java/com/qxy/HystrixApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-parent/hystrix-monitor/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/eureka_consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/eureka_consumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/config/RestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/java/com/qxy/consumer/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/eureka_provider/eureka_provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/eureka_provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/eureka_provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/ProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/dao/GoodsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/java/com/qxy/provider/dao/GoodsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/eureka_provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/eureka_provider/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/eureka_server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/eureka_server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-parent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +127,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -90,12 +157,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/src/main/java/com/qxy" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.12970167" />
     <property name="project.structure.side.proportion" value="0.17064846" />
-    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -106,19 +174,23 @@
       <recent name="E:\Code\study_springcloud\springcloud-parent\eureka_server1\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qxy.consumer.config" />
+      <recent name="com.qxy.consumer.controller" />
       <recent name="com.qxy.eureka" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderApplication (1)">
-    <configuration name="ConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="zookeeper_consumer" />
+  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+    <configuration name="ApiGatewayApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="api_gateway_server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qxy.ConsumerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qxy.ApiGatewayApp" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,15 +208,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka_server2" />
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka_server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qxy.eureka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qxy.eureka.EurekaServer2Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qxy.eureka.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="hystrix-monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qxy.HystrixApp" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,7 +243,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="eureka_provider" />
       <extension name="coverage">
         <pattern>
@@ -171,17 +252,34 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qxy.provider.ProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ProviderApplication" />
+      <item itemvalue="Spring Boot.ProviderApplication (1)" />
+      <item itemvalue="Spring Boot.HystrixApp" />
+      <item itemvalue="Spring Boot.ApiGatewayApp" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ProviderApplication (1)" />
-        <item itemvalue="Spring Boot.ConsumerApplication (1)" />
-        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="Spring Boot.ApiGatewayApp" />
         <item itemvalue="Spring Boot.ProviderApplication" />
-        <item itemvalue="Spring Boot.EurekaServer2Application" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="Spring Boot.ProviderApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -193,8 +291,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678790718165</updated>
-      <workItem from="1678790720390" duration="7682000" />
+      <workItem from="1678790720390" duration="8352000" />
+      <workItem from="1678838377221" duration="534000" />
+      <workItem from="1678838927506" duration="9434000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit for day01 registry study code">
+      <created>1678798596468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678798596468</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,8 +318,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit for day01 registry study code" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit for day01 registry study code" />
   </component>
 </project>
