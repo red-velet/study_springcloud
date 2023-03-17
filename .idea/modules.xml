@@ -3,13 +3,25 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/api_gateway_server/api_gateway_server.iml" filepath="$PROJECT_DIR$/springcloud-parent/api_gateway_server/api_gateway_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-alibaba-integration/cloud-consumer9000/cloud-consumer9000.iml" filepath="$PROJECT_DIR$/springcloud-alibaba-integration/cloud-consumer9000/cloud-consumer9000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-alibaba-integration/cloud-provider8001/cloud-provider8001.iml" filepath="$PROJECT_DIR$/springcloud-alibaba-integration/cloud-provider8001/cloud-provider8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba-parent/cloudalibaba-sentinel-service8000/cloudalibaba-sentinel-service8000.iml" filepath="$PROJECT_DIR$/springcloudalibaba-parent/cloudalibaba-sentinel-service8000/cloudalibaba-sentinel-service8000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-parent/config_server/config_server.iml" filepath="$PROJECT_DIR$/springcloud-parent/config_server/config_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba-parent/consumer/consumer.iml" filepath="$PROJECT_DIR$/springcloudalibaba-parent/consumer/consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/eureka_consumer/eureka_consumer.iml" filepath="$PROJECT_DIR$/springcloud-parent/eureka_consumer/eureka_consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/eureka_provider/eureka_provider.iml" filepath="$PROJECT_DIR$/springcloud-parent/eureka_provider/eureka_provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/springcloud-parent/eureka_server/eureka_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/eureka_server1/eureka_server1.iml" filepath="$PROJECT_DIR$/springcloud-parent/eureka_server1/eureka_server1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/eureka_server2/eureka_server2.iml" filepath="$PROJECT_DIR$/springcloud-parent/eureka_server2/eureka_server2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/hystrix-monitor/hystrix-monitor.iml" filepath="$PROJECT_DIR$/springcloud-parent/hystrix-monitor/hystrix-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba-parent/nacos_config_client/nacos_config_client.iml" filepath="$PROJECT_DIR$/springcloudalibaba-parent/nacos_config_client/nacos_config_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba-parent/provider8000/provider8000.iml" filepath="$PROJECT_DIR$/springcloudalibaba-parent/provider8000/provider8000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba-parent/provider8001/provider8001.iml" filepath="$PROJECT_DIR$/springcloudalibaba-parent/provider8001/provider8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-alibaba-integration/springcloud-alibaba-integration.iml" filepath="$PROJECT_DIR$/springcloud-alibaba-integration/springcloud-alibaba-integration.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" filepath="$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba-parent/springcloudalibaba-parent.iml" filepath="$PROJECT_DIR$/springcloudalibaba-parent/springcloudalibaba-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-parent/stream_consumer/stream_consumer.iml" filepath="$PROJECT_DIR$/springcloud-parent/stream_consumer/stream_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-parent/stream_producer/stream_producer.iml" filepath="$PROJECT_DIR$/springcloud-parent/stream_producer/stream_producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/study_springcloud.iml" filepath="$PROJECT_DIR$/.idea/study_springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/zookeeper_consumer.iml" filepath="$PROJECT_DIR$/springcloud-parent/zookeeper_consumer/zookeeper_consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/zookeeper_provider/zookeeper_provider.iml" filepath="$PROJECT_DIR$/springcloud-parent/zookeeper_provider/zookeeper_provider.iml" />

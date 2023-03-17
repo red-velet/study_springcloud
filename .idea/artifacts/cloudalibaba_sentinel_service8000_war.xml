@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cloudalibaba-sentinel-service8000:war">
+    <output-path>$PROJECT_DIR$/springcloudalibaba-parent/cloudalibaba-sentinel-service8000/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>cloudalibaba-sentinel-service8000</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="cloudalibaba-sentinel-service8000-1.0.0.war">
+      <element id="artifact" artifact-name="cloudalibaba-sentinel-service8000:war exploded" />
+    </root>
+  </artifact>
+</component>

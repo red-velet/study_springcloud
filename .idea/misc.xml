@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springcloudalibaba-parent/cloudalibaba-sentinel-service8000" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloudalibaba-parent/consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloudalibaba-parent/consumer_" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloudalibaba-parent/provider8000" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloudalibaba-parent/provider8001" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloudalibaba-parent/sentinel_service8000" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/springcloud-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudalibaba-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudalibaba-parent/provider8000/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-alibaba-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-alibaba-integration/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springcloud-alibaba-integration/cloud-provider8001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudalibaba-parent/cloudalibaba-sentinal-provider9001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudalibaba-parent/consumer_/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudalibaba-parent/sentinel_service8000/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

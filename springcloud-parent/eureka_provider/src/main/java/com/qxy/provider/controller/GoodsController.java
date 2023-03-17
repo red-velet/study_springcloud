@@ -4,6 +4,8 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.qxy.provider.domain.Goods;
 import com.qxy.provider.service.GoodsService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,10 +18,13 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/goods")
+@RefreshScope
 public class GoodsController {
     @Autowired
     GoodsService goodsService;
 
+    @Value("${configName}")
+    String configName;
 
     @GetMapping("findById/{id}")
     @HystrixCommand(fallbackMethod = "findById_fallback")
@@ -28,7 +33,9 @@ public class GoodsController {
         if (id == 1) {
             int i = 1 / 0;
         }
-        return goodsService.findById(id);
+        Goods goods = goodsService.findById(id);
+        goods.setTitle(goods.getTitle() + "| configName: " + configName);
+        return goods;
     }
 
     public Goods findById_fallback(Integer id) {

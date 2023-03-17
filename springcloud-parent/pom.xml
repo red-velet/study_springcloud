@@ -18,6 +18,9 @@
         <module>zookeeper_consumer</module>
         <module>hystrix-monitor</module>
         <module>api_gateway_server</module>
+        <module>config_server</module>
+        <module>stream_producer</module>
+        <module>stream_consumer</module>
     </modules>
     <packaging>pom</packaging>
 

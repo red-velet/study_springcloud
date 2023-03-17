@@ -1,0 +1,13 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+    nacos:
+      discovery:
+        server-addr: localhost:8848

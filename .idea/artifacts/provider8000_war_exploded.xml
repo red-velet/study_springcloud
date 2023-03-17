@@ -1,0 +1,84 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="provider8000:war exploded">
+    <output-path>$PROJECT_DIR$/springcloudalibaba-parent/provider8000/target/provider8000-1.0.0</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>provider8000</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="provider8000" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.6.3" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.6.3" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.6.3" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.6.3" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.6.3" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.10" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.10" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.17.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.17.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.33" />
+          <element id="library" level="project" name="Maven: jakarta.annotation:jakarta.annotation-api:1.3.5" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.15" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.15" />
+          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.29" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:2.6.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.1" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.6.3" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.56" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.56" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.56" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.15" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.15" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.15" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.15" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.15" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.15" />
+          <element id="library" level="project" name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2021.0.1.0" />
+          <element id="library" level="project" name="Maven: com.alibaba.cloud:spring-cloud-alibaba-commons:2021.0.1.0" />
+          <element id="library" level="project" name="Maven: com.alibaba.nacos:nacos-client:1.4.2" />
+          <element id="library" level="project" name="Maven: com.alibaba.nacos:nacos-common:1.4.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.33" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.7" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.5" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.15" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.15" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.13" />
+          <element id="library" level="project" name="Maven: com.alibaba.nacos:nacos-api:1.4.2" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:30.1-jre" />
+          <element id="library" level="project" name="Maven: com.google.guava:failureaccess:1.0.1" />
+          <element id="library" level="project" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" />
+          <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:3.0.2" />
+          <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.5.0" />
+          <element id="library" level="project" name="Maven: com.google.errorprone:error_prone_annotations:2.3.4" />
+          <element id="library" level="project" name="Maven: com.google.j2objc:j2objc-annotations:1.3" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.15" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.1" />
+          <element id="library" level="project" name="Maven: io.prometheus:simpleclient:0.12.0" />
+          <element id="library" level="project" name="Maven: io.prometheus:simpleclient_tracer_otel:0.12.0" />
+          <element id="library" level="project" name="Maven: io.prometheus:simpleclient_tracer_common:0.12.0" />
+          <element id="library" level="project" name="Maven: io.prometheus:simpleclient_tracer_otel_agent:0.12.0" />
+          <element id="library" level="project" name="Maven: com.alibaba.spring:spring-context-support:1.0.11" />
+          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-commons:3.1.1" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-crypto:5.6.1" />
+          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-context:3.1.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/springcloudalibaba-parent/provider8000/target/provider8000-1.0.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="provider8000/web/Web" />
+    </root>
+  </artifact>
+</component>

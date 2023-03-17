@@ -13,20 +13,47 @@
         <module name="eureka_server2" />
         <module name="api_gateway_server" />
         <module name="eureka_provider" />
-        <module name="eureka_server" />
         <module name="eureka_consumer" />
+        <module name="stream_producer" />
+        <module name="stream_consumer" />
+        <module name="nacos_config_client" />
+        <module name="config_server" />
+        <module name="eureka_server" />
+        <module name="cloudalibaba-sentinel-service8000" />
+        <module name="provider8001" />
         <module name="hystrix-monitor" />
+        <module name="provider8000" />
+        <module name="consumer" />
+        <module name="cloud-consumer9000" />
+        <module name="cloud-provider8001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api_gateway_server" target="1.8" />
+      <module name="cloud-consumer9000" target="1.8" />
+      <module name="cloud-provider8001" target="1.8" />
+      <module name="cloudalibaba-sentinal-provider9001" target="1.8" />
+      <module name="cloudalibaba-sentinel-service8000" target="1.8" />
+      <module name="config_server" target="1.8" />
+      <module name="consumer" target="1.8" />
+      <module name="consumer_" target="8" />
       <module name="eureka_consumer" target="1.8" />
       <module name="eureka_provider" target="1.8" />
       <module name="eureka_server" target="1.8" />
       <module name="eureka_server1" target="1.8" />
       <module name="eureka_server2" target="1.8" />
       <module name="hystrix-monitor" target="1.8" />
+      <module name="nacos_config_client" target="1.8" />
+      <module name="provider8000" target="1.8" />
+      <module name="provider8000_" target="8" />
+      <module name="provider8001" target="1.8" />
+      <module name="sentinel_service8000" target="1.8" />
+      <module name="springcloud-alibaba-integration" target="1.8" />
+      <module name="springcloud-alibaba-parent" target="1.8" />
       <module name="springcloud-parent" target="1.8" />
+      <module name="springcloudalibaba-parent" target="1.8" />
+      <module name="stream_consumer" target="1.8" />
+      <module name="stream_producer" target="1.8" />
       <module name="zookeeper_consumer" target="1.8" />
       <module name="zookeeper_provider" target="1.8" />
     </bytecodeTargetLevel>
@@ -34,12 +61,27 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api_gateway_server" options="-parameters" />
+      <module name="cloud-consumer9000" options="-parameters" />
+      <module name="cloud-provider8001" options="-parameters" />
+      <module name="cloudalibaba-sentinal-provider9001" options="-parameters" />
+      <module name="cloudalibaba-sentinel-service8000" options="-parameters" />
+      <module name="config_server" options="-parameters" />
+      <module name="consumer" options="-parameters" />
+      <module name="consumer_" options="" />
       <module name="eureka_consumer" options="-parameters" />
       <module name="eureka_provider" options="-parameters" />
       <module name="eureka_server" options="-parameters" />
       <module name="eureka_server1" options="-parameters" />
       <module name="eureka_server2" options="-parameters" />
       <module name="hystrix-monitor" options="-parameters" />
+      <module name="nacos_config_client" options="-parameters" />
+      <module name="provider8000" options="-parameters" />
+      <module name="provider8001" options="-parameters" />
+      <module name="sentinel_service8000" options="-parameters" />
+      <module name="springcloud-alibaba-integration" options="-parameters" />
+      <module name="springcloudalibaba-parent" options="" />
+      <module name="stream_consumer" options="-parameters" />
+      <module name="stream_producer" options="-parameters" />
       <module name="zookeeper_consumer" options="-parameters" />
       <module name="zookeeper_provider" options="-parameters" />
     </option>

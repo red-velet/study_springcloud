@@ -10,6 +10,11 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class GoodsFeignFallbackImpl implements GoodsFeign {
+    /**
+     * 定义降级方法   返回特殊对象
+     * 1、方法的返回值要和原方法一致
+     * 2、方法参数和原方法一样
+     */
     @Override
     public Goods findById(Integer id) {
         Goods goods = new Goods();

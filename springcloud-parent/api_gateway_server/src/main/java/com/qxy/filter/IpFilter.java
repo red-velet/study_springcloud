@@ -24,12 +24,7 @@ public class IpFilter implements GlobalFilter, Ordered {
         ServerHttpRequest request = exchange.getRequest();
         ServerHttpResponse response = exchange.getResponse();
         InetSocketAddress remoteAddress = request.getRemoteAddress();
-        String hostName = remoteAddress.getHostName();
-        int port = remoteAddress.getPort();
         String hostAddress = remoteAddress.getAddress().getHostAddress();
-        System.out.println("hostAddress = " + hostAddress);
-        System.out.println("hostName = " + hostName);
-        System.out.println("port = " + port);
         if (hostAddress.equals("192.168.1.178")) {
             System.out.println("未认证的ip:" + hostAddress);
             response.setRawStatusCode(HttpStatus.UNAUTHORIZED.value());
